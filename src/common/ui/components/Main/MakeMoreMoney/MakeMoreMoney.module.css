@@ -1,0 +1,41 @@
+.container {
+}
+
+.title {
+    width: 362px;
+}
+
+.title span {
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    line-height: 58px;
+
+    color: #E4E5EA;
+}
+
+.subTitle {
+    margin-bottom: 30px;
+}
+
+.subTitle span {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 58px;
+
+    background: linear-gradient(92deg, #FCB045 27.14%, #FF3F78 121.36%), #E4E5EA;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.text {
+    width: 275px;
+}
+
+.text span {
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #E4E5EA;
+}
