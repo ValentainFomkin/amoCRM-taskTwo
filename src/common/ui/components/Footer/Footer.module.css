@@ -1,2 +1,128 @@
 .footer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 35px;
+}
+
+.companyAndMenu {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.companyAndMenuTitle {
+    margin-bottom: 20px;
+}
+
+.companyAndMenuTitle span {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    line-height: 17px;
+
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+    color: #656566;
+}
+
+.menuSubTitle {
+    display: flex;
+    justify-content: space-between;
+}
+
+.firstPacksSubTitle {
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.secondPacksSubTitle {
+    display: flex;
+    flex-direction: column;
+}
+
+.companySubTitle {
+    display: flex;
+    flex-direction: column;
+}
+
+.subTitle {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #E4E5EA;
+
+    margin-bottom: 10px;
+}
+
+.contactsTitle {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: end;
+}
+
+.contactsTitle span {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    line-height: 17px;
+
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+    color: #656566;
+}
+
+.contactsSubTitle {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.phoneNumber {
+    margin-bottom: 22px;
+}
+
+.phoneNumber span {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #E4E5EA;
+}
+
+.contactLinks {
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 22px;
+
+}
+
+.address span {
+
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    line-height: 19px;
+    color: #E4E5EA;
+}
+
+.confidentiality {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.privileges span {
+    font-size: 12px;
+    line-height: 15px;
+    color: #E4E5EA;
+}
+
+.confPolitic a {
+    font-size: 12px;
+    line-height: 15px;
+    text-decoration-line: underline;
+    color: #E4E5EA;
 }
