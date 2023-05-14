@@ -127,10 +127,10 @@ export const Footer = () => {
             </div>
             <div>
                {
-                  contactsList.map(c => {
+                  contactsList.map((c) => {
                      const number = c.subTitle?.map(sub => sub.contactInfo?.phoneNumber)
-                     const messengersLinks = c.subTitle?.map(sub => sub.contactInfo?.messengersLinks.map(mes =>
-                        <div className={s.contactLink}>
+                     const messengersLinks = c.subTitle?.map(sub => sub.contactInfo?.messengersLinks.map((mes, index) =>
+                        <div key={index} className={s.contactLink}>
                            <a href={mes.title}>
                               <img src={mes.icon}
                                    alt={mes.title}/>

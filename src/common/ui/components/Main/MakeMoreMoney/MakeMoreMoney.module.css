@@ -1,3 +1,5 @@
+@import "/src/Adaptive.module.css";
+
 .container {
 }
 
@@ -38,4 +40,21 @@
     line-height: 22px;
 
     color: #E4E5EA;
+}
+
+@media only screen and (max-width: 992px) {
+
+
+}
+
+@media only screen and (max-width: 768px) {
+
+}
+
+@media only screen and (max-width: 480px) {
+
+}
+
+@media only screen and (max-width: 320px) {
+
 }
