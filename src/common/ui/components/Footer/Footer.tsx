@@ -97,9 +97,9 @@ export const Footer = () => {
                {
                   companyAndMenuList.map(cm => {
                      const firstPacksSubTitle = cm.subTitle?.map(sub => sub.firstPacks?.map(f =>
-                        <a href={f.name} className={s.subTitle}>{f.name}</a>))
+                        <a href={'#'} className={s.subTitle}>{f.name}</a>))
                      const secondPacksSubTitle = cm.subTitle?.map(sub => sub.secondPacks?.map(sec =>
-                        <a href={sec.name} className={s.subTitle}>{sec.name}</a>))
+                        <a href={'#'} className={s.subTitle}>{sec.name}</a>))
                      return (
                         <div key={cm.id}>
                            <div className={s.companyAndMenuTitle}>
@@ -131,7 +131,7 @@ export const Footer = () => {
                      const number = c.subTitle?.map(sub => sub.contactInfo?.phoneNumber)
                      const messengersLinks = c.subTitle?.map(sub => sub.contactInfo?.messengersLinks.map((mes, index) =>
                         <div key={index} className={s.contactLink}>
-                           <a href={mes.title}>
+                           <a href={'#'}>
                               <img src={mes.icon}
                                    alt={mes.title}/>
                            </a>

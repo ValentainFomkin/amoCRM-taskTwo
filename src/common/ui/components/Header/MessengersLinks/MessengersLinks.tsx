@@ -13,7 +13,7 @@ export const MessengersLinks: FC<MessengersLinksPropsType> = (props) => {
          {messengersLinks.map(mes => {
             return (
                <div key={mes.id} className={s.messengersLinks}>
-                  <a href={mes.title}>
+                  <a href={'#'}>
                      <img src={mes.icon} alt={mes.title}/>
                   </a>
                </div>
