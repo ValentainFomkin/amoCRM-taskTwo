@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/amoCRM-taskTwo/static/css/main.a74403bf.css",
-    "main.js": "/amoCRM-taskTwo/static/js/main.fc904bce.js",
+    "main.js": "/amoCRM-taskTwo/static/js/main.cc36ac5f.js",
     "static/js/787.45e7b9ba.chunk.js": "/amoCRM-taskTwo/static/js/787.45e7b9ba.chunk.js",
     "index.html": "/amoCRM-taskTwo/index.html",
     "main.a74403bf.css.map": "/amoCRM-taskTwo/static/css/main.a74403bf.css.map",
-    "main.fc904bce.js.map": "/amoCRM-taskTwo/static/js/main.fc904bce.js.map",
+    "main.cc36ac5f.js.map": "/amoCRM-taskTwo/static/js/main.cc36ac5f.js.map",
     "787.45e7b9ba.chunk.js.map": "/amoCRM-taskTwo/static/js/787.45e7b9ba.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a74403bf.css",
-    "static/js/main.fc904bce.js"
+    "static/js/main.cc36ac5f.js"
   ]
 }
