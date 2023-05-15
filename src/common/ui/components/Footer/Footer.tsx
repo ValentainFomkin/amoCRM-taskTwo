@@ -143,7 +143,7 @@ export const Footer = () => {
                               <span>{c.title}</span>
                            </div>
                            <div className={s.contactsSubTitle}>
-                              <div className={s.phoneNumber}><span>{number}</span></div>
+                              <div className={s.phoneNumber}><a href={'#'}>{number}</a></div>
                               <div className={s.contactLinks}>{messengersLinks}</div>
                               <div className={s.address}><span>{address}</span></div>
                            </div>
