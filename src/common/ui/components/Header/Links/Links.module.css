@@ -6,3 +6,45 @@
 
     color: #E4E5EA;
 }
+
+@media only screen and (max-width: 695px) {
+
+    .link a {
+        margin-right: 30px;
+    }
+
+    .link:last-child a {
+        visibility: hidden;
+        margin-right: 0px;
+
+    }
+}
+
+@media only screen and (max-width: 425px) {
+
+    .link {
+        padding: 30px 17px;
+        text-transform: uppercase;
+    }
+
+    .link a {
+        font-size: 14px;
+        margin-right: 0;
+
+    }
+
+    .link:last-child a {
+        visibility: hidden;
+    }
+
+}
+
+@media only screen and (max-width: 320px) {
+    .link {
+        padding: 30px 10px;
+    }
+
+    .link a {
+        font-size: 12px;
+    }
+}

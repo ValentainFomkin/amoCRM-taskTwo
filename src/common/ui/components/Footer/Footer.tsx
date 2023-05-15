@@ -138,7 +138,7 @@ export const Footer = () => {
                         </div>))
                      const address = c.subTitle?.map(sub => sub.contactInfo?.address)
                      return (
-                        <div key={c.id}>
+                        <div key={c.id} className={s.contactList}>
                            <div className={s.contactsTitle}>
                               <span>{c.title}</span>
                            </div>

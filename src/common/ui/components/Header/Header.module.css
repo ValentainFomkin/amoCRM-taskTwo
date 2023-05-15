@@ -41,12 +41,108 @@
 }
 
 
-/*@media only screen and (max-width: 475px) {*/
-/*    .label {*/
+@media only screen and (max-width: 1370px) {
+    .headerContainer {
+        margin-bottom: 70px;
+    }
 
-/*    }*/
-/*}*/
+}
 
-/*@media only screen and (max-width: 320px) {*/
+@media only screen and (max-width: 1209px) {
+    .navLinks {
+        width: 45%;
+    }
 
-/*}*/
+    .label {
+        margin-right: 10px;
+    }
+
+    .phoneNumber {
+        margin-right: 10px;
+    }
+
+    .messengers {
+        width: 9%;
+    }
+}
+
+@media only screen and (max-width: 1110px) {
+    .navLinks {
+        width: 50%;
+        margin-right: 40px;
+    }
+
+    .label {
+        margin-right: 30px;
+    }
+}
+
+@media only screen and (max-width: 1021px) {
+    .phoneNumber {
+        margin-right: 10px;
+    }
+
+    .phoneNumber a {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 940px) {
+    .messengers {
+        display: none;
+    }
+
+    .phoneNumber {
+        display: none;
+    }
+
+    .navLinks {
+        width: 70%;
+        margin-right: 0;
+    }
+
+    .label {
+        margin-right: 55px;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+
+    .navLinks {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .label {
+        margin-right: 90px;
+    }
+
+}
+
+@media only screen and (max-width: 695px) {
+
+    .navLinks {
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 425px) {
+
+    .headerContainer {
+        width: 100%;
+        background: #0E1014;
+        margin: 0;
+    }
+
+
+    .label {
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 320px) {
+   
+}

@@ -33,6 +33,7 @@ export const Header = () => {
       {id: v1(), title: 'whats up', icon: whatsUpIcon},
       {id: v1(), title: 'phone', icon: phoneIcon},
    ]
+
    return (
       <div className={s.headerContainer}>
          <div className={s.label}>

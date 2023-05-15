@@ -7,6 +7,7 @@ import {Wrapper} from "common/ui/components/Wrapper/Wrapper";
 export const App = () => {
    return (
       <div className={s.app}>
+         <span className={s.redBuble}></span>
          {/*<header className={s.header}>header</header>*/}
          {/*<main className={s.main}>main</main>*/}
          {/*<footer className={s.footer}>footer</footer>*/}

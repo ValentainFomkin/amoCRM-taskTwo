@@ -15,3 +15,14 @@
 .labelIconsName {
 
 }
+
+@media only screen and (max-width: 1370px) {
+
+
+}
+
+@media only screen and (max-width: 1209px) {
+    .labelIcons {
+        margin-bottom: 5px;
+    }
+}

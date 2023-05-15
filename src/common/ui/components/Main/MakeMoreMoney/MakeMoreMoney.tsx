@@ -6,7 +6,7 @@ export const MakeMoreMoney = () => {
    return (
       <div className={s.container}>
          <div className={s.title}>
-            <span>Зарабатывайте больше</span>
+            <span>Зарабатывайте <br/> больше</span>
          </div>
          <div className={s.subTitle}>
             <span>с WELBEX</span>

@@ -31,3 +31,50 @@
     -webkit-text-fill-color: transparent;
     text-fill-color: transparent;
 }
+
+@media only screen and (max-width: 748px) {
+
+    .wePresent {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .wePresentText {
+        font-size: 24px;
+    }
+
+    .wePresentTextColor {
+        font-size: 24px;
+    }
+
+}
+
+@media only screen and (max-width: 425px) {
+
+    .wePresent {
+        text-align: left;
+        margin-bottom: 40px;
+    }
+
+    .wePresentText {
+        font-size: 20px;
+    }
+
+    .wePresentTextColor {
+        font-size: 20px;
+    }
+
+}
+
+@media only screen and (max-width: 320px) {
+
+    .wePresentText {
+        font-size: 18px;
+    }
+
+    .wePresentTextColor {
+        font-size: 18px;
+    }
+
+}

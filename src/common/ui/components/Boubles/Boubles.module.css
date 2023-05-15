@@ -42,3 +42,28 @@
     filter: blur(2.5px);
     backdrop-filter: blur(2px);
 }
+
+@media only screen and (max-width: 940px) {
+    .purple {
+        left: 200px;
+    }
+
+    .redSmall {
+        left: 400px;
+    }
+}
+
+@media only screen and (max-width: 807px) {
+    .redSmall {
+        left: 400px;
+        opacity: 30%;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .redBig {
+        top: 700px;
+        left: 10px;
+        opacity: 30%;
+    }
+}
